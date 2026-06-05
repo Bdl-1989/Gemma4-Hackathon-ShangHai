@@ -4,6 +4,14 @@
 赛道：A - AI Agent  
 核心模型：`gemma-4-26b-a4b-it`，通过 LM Studio 的 OpenAI-compatible API 本地调用。
 
+## 演示视频
+
+演示视频已放在仓库内：
+
+`docs/assets/demo/studypilot_live_demo_hardsub_manual_voice.mp4`
+
+视频为 3 分 33 秒的真实自动化操作录屏，带硬字幕和中文配音，覆盖一个 FastAPI 后端、孩子端 React、家长端 React、Streamlit 调试台以及同一份 SQLite 数据闭环。
+
 ## 项目简介
 
 时间规划小助手是一个面向小学生家庭作业场景的本地 AI Agent demo。孩子端只做两件事：放学后说出今天情况，睡前做一次真实复盘。家长端只做审核、理解趋势和轻量纠偏。Streamlit 保留为内部调试台，用来展示 RAG、trace、JSON、评测和调试模式。
